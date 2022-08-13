@@ -38,9 +38,10 @@
             {
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
-                o.vertex.x = sign(o.vertex.x) * _ProjectionParams.z;
-                o.vertex.y = sign(o.vertex.y) * _ProjectionParams.z;
-                //o.vertex.z = UNITY_NEAR_CLIP_VALUE * 0.999999999; // not working on quest
+                o.vertex.x = sign(o.vertex.x);
+                o.vertex.y = sign(o.vertex.y);
+                o.vertex.z = UNITY_NEAR_CLIP_VALUE;
+                o.vertex.w = 1;
                 return o;
             }
 
