@@ -188,6 +188,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 168493217215572857, guid: ea17306410dd2b64ab677e70ecb77fa0,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 168493217215572859, guid: ea17306410dd2b64ab677e70ecb77fa0,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 168493217215572861, guid: ea17306410dd2b64ab677e70ecb77fa0,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 168493217215572863, guid: ea17306410dd2b64ab677e70ecb77fa0,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea17306410dd2b64ab677e70ecb77fa0, type: 3}
 --- !u!1 &333468486
@@ -231,7 +251,7 @@ MeshRenderer:
   m_GameObject: {fileID: 333468486}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -483,7 +503,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1393607179}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
