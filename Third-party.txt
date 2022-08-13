@@ -5,3 +5,7 @@ Assets/Coq_funi03: Coquelicotz furniture 3
 VirtualFoxDesignStudio/Lura'sSwitch(Udon): https://booth.pm/ja/items/1969082
     Published under UVLicense:
         https://uv-license.com/ja/license?utf8=%E2%9C%93&pcu=true&ccu=true&ddw=true&seu=true&veu=true
+
+Assets/QvPen: QvPen 3.2.4.1
+    resources from https://booth.pm/ja/items/1555789
+    published under custom license. see link above
