@@ -22,30 +22,20 @@
 
             #include "UnityCG.cginc"
 
-            struct appdata
-            {
-                float4 vertex : POSITION;
-            };
-
-            struct v2f
-            {
-                float4 vertex : SV_POSITION;
-            };
-
             fixed _Alpha;
 
-            v2f vert (appdata v)
+            float4 vert (float4 vertex : POSITION) : SV_POSITION
             {
-                v2f o;
-                o.vertex = UnityObjectToClipPos(v.vertex);
-                o.vertex.x = sign(o.vertex.x);
-                o.vertex.y = sign(o.vertex.y);
-                o.vertex.z = UNITY_NEAR_CLIP_VALUE;
-                o.vertex.w = 1;
-                return o;
+                float4 in_clip = UnityObjectToClipPos(vertex);
+                return float4(
+                    sign(in_clip.x),
+                    sign(in_clip.y),
+                    UNITY_NEAR_CLIP_VALUE,
+                    1
+                );
             }
 
-            fixed4 frag (v2f _) : SV_Target
+            fixed4 frag () : SV_Target
             {
                 return fixed4(0, 0, 0, _Alpha);
             }
