@@ -1,0 +1,3 @@
+Assets/Coq_funi03: Coquelicotz furniture 3
+    resources from https://booth.pm/ja/items/1680527
+    Published under CC0
