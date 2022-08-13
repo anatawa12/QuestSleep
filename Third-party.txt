@@ -1,11 +1,25 @@
-Assets/Coq_funi03: Coquelicotz furniture 3
+Third party resources are listed below:
+
+Packages/com.vrchat.udonsharp: UdonsSharp by VRChat Inc.
+    resources from https://github.dev/vrchat-community/UdonSharp/
+    Published under MIT License
+        see https://github.com/vrchat-community/UdonSharp/blob/master/LICENSE
+
+Packages/com.vrchat.clientsim: ClientSim by VRChat Inc.
+    resources from https://github.dev/vrchat-community/ClientSim/
+    Published under VRCHAT DISTRO LICENSE FILE
+        see https://hello.vrchat.com/legal/sdk
+
+Assets/Coq_funi03: Coquelicotz furniture 3 by Coquelicotz
     resources from https://booth.pm/ja/items/1680527
     Published under CC0
+        see https://creativecommons.org/publicdomain/zero/1.0/
 
-VirtualFoxDesignStudio/Lura'sSwitch(Udon): https://booth.pm/ja/items/1969082
-    Published under UVLicense:
-        https://uv-license.com/ja/license?utf8=%E2%9C%93&pcu=true&ccu=true&ddw=true&seu=true&veu=true
+VirtualFoxDesignStudio/Lura'sSwitch(Udon): Lura'sSwitch by lura
+    resources from https://booth.pm/ja/items/1969082
+    Published under UVLicense
+       see https://uv-license.com/ja/license?utf8=%E2%9C%93&pcu=true&ccu=true&ddw=true&seu=true&veu=true
 
-Assets/QvPen: QvPen 3.2.4.1
+Assets/QvPen: QvPen 3.2.4.1 by ureishi
     resources from https://booth.pm/ja/items/1555789
-    published under custom license. see link above
+    published under their own license. see link above
