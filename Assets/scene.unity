@@ -607,7 +607,7 @@ MonoBehaviour:
   slider: {fileID: 1453562057}
   gamma: 0.41666666
   min: 0.5
-  max: 0.99
+  max: 0.9999
 --- !u!1001 &1327552124
 PrefabInstance:
   m_ObjectHideFlags: 0
