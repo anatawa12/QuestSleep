@@ -1,0 +1,5 @@
+*.blend
+*.blend[0-9]*
+*.png
+!base.blend
+!cubemap.png
