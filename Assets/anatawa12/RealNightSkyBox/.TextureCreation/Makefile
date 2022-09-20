@@ -22,5 +22,5 @@ faceZ+.png: stars.blend takePicture.py
 faceZ-.png: stars.blend takePicture.py
 	$(BLENDER) stars.blend --background --python takePicture.py -- Z-
 
-cubemap.png: $(echo face{X,Y,Z}{-,+}.png)
+cubemap.png: $(shell echo face{X,Y,Z}{-,+}.png)
 	$(CONVERT) -append face{X,Y,Z}{+,-}.png cubemap.png
