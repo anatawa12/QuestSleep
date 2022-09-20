@@ -4,7 +4,7 @@ using UdonSharp;
 using System;
 using UnityEngine;
 
-namespace anatawa12.RealNightSkyBox
+namespace anatawa12.RealStarSkybox
 {
     public class ShaderRotationSetter :
 #if VRC_SDK_VRCSDK3

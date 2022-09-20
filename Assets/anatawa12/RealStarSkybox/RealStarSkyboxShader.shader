@@ -18,7 +18,7 @@
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Shader "anatawa12/RealNightSkyBoxShader"
+Shader "anatawa12/RealStarSkyboxShader"
 {
     Properties
     {
@@ -26,7 +26,7 @@ Shader "anatawa12/RealNightSkyBoxShader"
         [NoScaleOffset] _Tex ("Cubemap", Cube) = "grey" {}
     }
 
-    CustomEditor "anatawa12.RealNightSkyBox.RealNightSkyBoxShaderGUI"
+    CustomEditor "anatawa12.RealStarSkybox.RealStarSkyboxShaderGUI"
 
     SubShader
     {

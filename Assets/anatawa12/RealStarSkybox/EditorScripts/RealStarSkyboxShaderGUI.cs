@@ -1,9 +1,9 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace anatawa12.RealNightSkyBox
+namespace anatawa12.RealStarSkybox
 {
-    public class RealNightSkyBoxShaderGUI : UnityEditor.ShaderGUI
+    public class RealStarSkyboxShaderGUI : ShaderGUI
     {
         public static readonly Quaternion Initial = Quaternion.Euler(90, 180, 0);
 
