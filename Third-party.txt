@@ -10,6 +10,11 @@ Packages/com.vrchat.clientsim: ClientSim by VRChat Inc.
     Published under VRCHAT DISTRO LICENSE FILE
         see https://hello.vrchat.com/legal/sdk
 
+Packages/com.vrchat.core.vpm-resolver: vpm-resolver by VRChat Inc.
+    see https://vcc.docs.vrchat.com/vpm/resolver
+    Published under VRCHAT DISTRO LICENSE FILE
+        see https://hello.vrchat.com/legal/sdk
+
 Assets/Coq_funi03: Coquelicotz furniture 3 by Coquelicotz
     resources from https://booth.pm/ja/items/1680527
     Published under CC0
