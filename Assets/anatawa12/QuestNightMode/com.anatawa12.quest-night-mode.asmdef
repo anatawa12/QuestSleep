@@ -1,0 +1,16 @@
+{
+    "name": "com.anatawa12.quest-night-mode",
+    "references": [
+        "GUID:99835874ee819da44948776e0df4ff1d",
+        "UdonSharp.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

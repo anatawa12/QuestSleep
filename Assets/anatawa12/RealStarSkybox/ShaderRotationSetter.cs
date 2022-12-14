@@ -1,4 +1,4 @@
-#if VRC_SDK_VRCSDK3
+#if UDONSHARP
 using UdonSharp;
 #endif
 using System;
@@ -7,7 +7,7 @@ using UnityEngine;
 namespace anatawa12.RealStarSkybox
 {
     public class ShaderRotationSetter :
-#if VRC_SDK_VRCSDK3
+#if UDONSHARP
         UdonSharpBehaviour
 #else
         MonoBehaviour
