@@ -1,0 +1,18 @@
+{
+    "name": "Kinel.VideoPlayer",
+    "references": [
+        "GUID:3c1bc1267eab5884ebe7f232c09ee0d9",
+        "GUID:99835874ee819da44948776e0df4ff1d",
+        "GUID:627c4d5cd580ddf41bd320e784fe8b9d",
+        "GUID:64642d2973c92ea4b8a91d3ed2752319"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
