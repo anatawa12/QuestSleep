@@ -18,7 +18,7 @@ namespace anatawa12.QuestSleep
         public override void OnPlayerLeft(VRCPlayerApi player)
         {
             if (text != null)
-                text.text += $"[{DateTime.Now:T}] [<color=#0f0>Leave</color>] {player.displayName}\n";
+                text.text += $"[{DateTime.Now:T}] [<color=#f00>Leave</color>] {player.displayName}\n";
         }
     }
 }
