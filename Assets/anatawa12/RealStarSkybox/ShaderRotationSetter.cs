@@ -16,7 +16,11 @@ namespace anatawa12.RealStarSkybox
         private DateTime _nextUpdate;
         public float latitude;
         public float northDirection;
+#if UDONSHARP
+        private readonly string _rotQuot = "_RotQuot";
+#else
         private readonly int _rotQuot = Shader.PropertyToID("_RotQuot");
+#endif
 
         private void Update()
         {
