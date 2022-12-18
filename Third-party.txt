@@ -33,3 +33,7 @@ Assets/Kinel: KineL Video Player 2.3.0 for VCC by niwaniwa
     resources from https://booth.pm/ja/items/2758684
     published under MIT License
         see https://github.com/niwaniwa/KineLVideoPlayer/blob/develop/LICENSE
+
+Assets/AnalogClock: アナログ時計 by さやまめ
+    resources from https://sayamame-beans.booth.pm/items/3321518
+    published under their own license. see link above

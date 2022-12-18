@@ -812,7 +812,10 @@ MonoBehaviour:
     QvPen 3.2.5.1 by ureishi\n    resources from https://booth.pm/ja/items/1555789\n   
     published under their own license. see link above\n\nAssets/Kinel: KineL Video
     Player 2.3.0 for VCC by niwaniwa\n    resources from https://booth.pm/ja/items/2758684\n   
-    published under MIT License\n        see https://github.com/niwaniwa/KineLVideoPlayer/blob/develop/LICENSE\n"
+    published under MIT License\n        see https://github.com/niwaniwa/KineLVideoPlayer/blob/develop/LICENSE\n\nAssets/AnalogClock:
+    \u30A2\u30CA\u30ED\u30B0\u6642\u8A08 by \u3055\u3084\u307E\u3081\n    resources
+    from https://sayamame-beans.booth.pm/items/3321518\n    published under their
+    own license. see link above\n"
 --- !u!222 &683125920
 CanvasRenderer:
   m_ObjectHideFlags: 0
